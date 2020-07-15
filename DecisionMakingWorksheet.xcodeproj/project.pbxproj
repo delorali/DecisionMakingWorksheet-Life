@@ -12,9 +12,22 @@
 		3B8DBBE724A42F36000C56A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8DBBE624A42F36000C56A3 /* ContentView.swift */; };
 		3B8DBBE924A42F3B000C56A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B8DBBE824A42F3B000C56A3 /* Assets.xcassets */; };
 		3B8DBBEC24A42F3B000C56A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B8DBBEB24A42F3B000C56A3 /* Preview Assets.xcassets */; };
-		3B8DBBEF24A42F3B000C56A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8DBBED24A42F3B000C56A3 /* LaunchScreen.storyboard */; };
 		3B8DBBFA24A42F3B000C56A3 /* DecisionMakingWorksheetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8DBBF924A42F3B000C56A3 /* DecisionMakingWorksheetTests.swift */; };
 		3B8DBC0524A42F3B000C56A3 /* DecisionMakingWorksheetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8DBC0424A42F3B000C56A3 /* DecisionMakingWorksheetUITests.swift */; };
+		3B8DBC1324A44DE9000C56A3 /* FirstStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8DBC1224A44DE9000C56A3 /* FirstStepViewController.swift */; };
+		3BE1F75024B508C400D2AD96 /* Issue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F74F24B508C400D2AD96 /* Issue.swift */; };
+		3BE1F75224B5176100D2AD96 /* IssuesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F75124B5176100D2AD96 /* IssuesList.swift */; };
+		3BE1F75624B5B58A00D2AD96 /* SecondStep.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BE1F75524B5B58A00D2AD96 /* SecondStep.storyboard */; };
+		3BE1F75824B5B5F100D2AD96 /* SecondStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F75724B5B5F100D2AD96 /* SecondStepViewController.swift */; };
+		3BE1F75A24B5BACC00D2AD96 /* ThirdStep.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BE1F75924B5BACC00D2AD96 /* ThirdStep.storyboard */; };
+		3BE1F75C24B5BB0F00D2AD96 /* ThirdStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F75B24B5BB0F00D2AD96 /* ThirdStepViewController.swift */; };
+		3BE1F76024B5BFAB00D2AD96 /* FourthStep.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BE1F75F24B5BFAB00D2AD96 /* FourthStep.storyboard */; };
+		3BE1F76224B5BFCE00D2AD96 /* FourthStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F76124B5BFCE00D2AD96 /* FourthStepViewController.swift */; };
+		3BE1F76424B5C08E00D2AD96 /* FifthStep.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BE1F76324B5C08E00D2AD96 /* FifthStep.storyboard */; };
+		3BE1F76624B629F500D2AD96 /* FifthStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F76524B629F500D2AD96 /* FifthStepViewController.swift */; };
+		3BE1F76A24B62A3500D2AD96 /* SixthStep.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BE1F76924B62A3500D2AD96 /* SixthStep.storyboard */; };
+		3BE1F76C24BCBF9000D2AD96 /* FirstStep.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BE1F76B24BCBF9000D2AD96 /* FirstStep.storyboard */; };
+		3BE1F76E24BF6BD000D2AD96 /* SixthStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F76D24BF6BD000D2AD96 /* SixthStepViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +54,6 @@
 		3B8DBBE624A42F36000C56A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3B8DBBE824A42F3B000C56A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B8DBBEB24A42F3B000C56A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3B8DBBEE24A42F3B000C56A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B8DBBF024A42F3B000C56A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B8DBBF524A42F3B000C56A3 /* DecisionMakingWorksheetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DecisionMakingWorksheetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B8DBBF924A42F3B000C56A3 /* DecisionMakingWorksheetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecisionMakingWorksheetTests.swift; sourceTree = "<group>"; };
@@ -49,6 +61,20 @@
 		3B8DBC0024A42F3B000C56A3 /* DecisionMakingWorksheetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DecisionMakingWorksheetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B8DBC0424A42F3B000C56A3 /* DecisionMakingWorksheetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecisionMakingWorksheetUITests.swift; sourceTree = "<group>"; };
 		3B8DBC0624A42F3B000C56A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B8DBC1224A44DE9000C56A3 /* FirstStepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstStepViewController.swift; sourceTree = "<group>"; };
+		3BE1F74F24B508C400D2AD96 /* Issue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Issue.swift; sourceTree = "<group>"; };
+		3BE1F75124B5176100D2AD96 /* IssuesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssuesList.swift; sourceTree = "<group>"; };
+		3BE1F75524B5B58A00D2AD96 /* SecondStep.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SecondStep.storyboard; sourceTree = "<group>"; };
+		3BE1F75724B5B5F100D2AD96 /* SecondStepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondStepViewController.swift; sourceTree = "<group>"; };
+		3BE1F75924B5BACC00D2AD96 /* ThirdStep.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ThirdStep.storyboard; sourceTree = "<group>"; };
+		3BE1F75B24B5BB0F00D2AD96 /* ThirdStepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdStepViewController.swift; sourceTree = "<group>"; };
+		3BE1F75F24B5BFAB00D2AD96 /* FourthStep.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FourthStep.storyboard; sourceTree = "<group>"; };
+		3BE1F76124B5BFCE00D2AD96 /* FourthStepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthStepViewController.swift; sourceTree = "<group>"; };
+		3BE1F76324B5C08E00D2AD96 /* FifthStep.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FifthStep.storyboard; sourceTree = "<group>"; };
+		3BE1F76524B629F500D2AD96 /* FifthStepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthStepViewController.swift; sourceTree = "<group>"; };
+		3BE1F76924B62A3500D2AD96 /* SixthStep.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SixthStep.storyboard; sourceTree = "<group>"; };
+		3BE1F76B24BCBF9000D2AD96 /* FirstStep.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FirstStep.storyboard; sourceTree = "<group>"; };
+		3BE1F76D24BF6BD000D2AD96 /* SixthStepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthStepViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +129,21 @@
 				3B8DBBE424A42F36000C56A3 /* SceneDelegate.swift */,
 				3B8DBBE624A42F36000C56A3 /* ContentView.swift */,
 				3B8DBBE824A42F3B000C56A3 /* Assets.xcassets */,
-				3B8DBBED24A42F3B000C56A3 /* LaunchScreen.storyboard */,
+				3BE1F75124B5176100D2AD96 /* IssuesList.swift */,
+				3BE1F74F24B508C400D2AD96 /* Issue.swift */,
+				3BE1F76B24BCBF9000D2AD96 /* FirstStep.storyboard */,
+				3BE1F75524B5B58A00D2AD96 /* SecondStep.storyboard */,
+				3BE1F75924B5BACC00D2AD96 /* ThirdStep.storyboard */,
+				3BE1F75F24B5BFAB00D2AD96 /* FourthStep.storyboard */,
+				3BE1F76324B5C08E00D2AD96 /* FifthStep.storyboard */,
+				3BE1F76924B62A3500D2AD96 /* SixthStep.storyboard */,
+				3BE1F76524B629F500D2AD96 /* FifthStepViewController.swift */,
+				3BE1F76D24BF6BD000D2AD96 /* SixthStepViewController.swift */,
 				3B8DBBF024A42F3B000C56A3 /* Info.plist */,
+				3B8DBC1224A44DE9000C56A3 /* FirstStepViewController.swift */,
+				3BE1F75B24B5BB0F00D2AD96 /* ThirdStepViewController.swift */,
+				3BE1F76124B5BFCE00D2AD96 /* FourthStepViewController.swift */,
+				3BE1F75724B5B5F100D2AD96 /* SecondStepViewController.swift */,
 				3B8DBBEA24A42F3B000C56A3 /* Preview Content */,
 			);
 			path = DecisionMakingWorksheet;
@@ -240,9 +279,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B8DBBEF24A42F3B000C56A3 /* LaunchScreen.storyboard in Resources */,
+				3BE1F75624B5B58A00D2AD96 /* SecondStep.storyboard in Resources */,
+				3BE1F76424B5C08E00D2AD96 /* FifthStep.storyboard in Resources */,
+				3BE1F75A24B5BACC00D2AD96 /* ThirdStep.storyboard in Resources */,
+				3BE1F76024B5BFAB00D2AD96 /* FourthStep.storyboard in Resources */,
 				3B8DBBEC24A42F3B000C56A3 /* Preview Assets.xcassets in Resources */,
+				3BE1F76C24BCBF9000D2AD96 /* FirstStep.storyboard in Resources */,
 				3B8DBBE924A42F3B000C56A3 /* Assets.xcassets in Resources */,
+				3BE1F76A24B62A3500D2AD96 /* SixthStep.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,9 +311,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BE1F75024B508C400D2AD96 /* Issue.swift in Sources */,
+				3BE1F75824B5B5F100D2AD96 /* SecondStepViewController.swift in Sources */,
 				3B8DBBE324A42F36000C56A3 /* AppDelegate.swift in Sources */,
+				3BE1F76224B5BFCE00D2AD96 /* FourthStepViewController.swift in Sources */,
 				3B8DBBE524A42F36000C56A3 /* SceneDelegate.swift in Sources */,
 				3B8DBBE724A42F36000C56A3 /* ContentView.swift in Sources */,
+				3B8DBC1324A44DE9000C56A3 /* FirstStepViewController.swift in Sources */,
+				3BE1F75C24B5BB0F00D2AD96 /* ThirdStepViewController.swift in Sources */,
+				3BE1F76624B629F500D2AD96 /* FifthStepViewController.swift in Sources */,
+				3BE1F76E24BF6BD000D2AD96 /* SixthStepViewController.swift in Sources */,
+				3BE1F75224B5176100D2AD96 /* IssuesList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,17 +355,6 @@
 			targetProxy = 3B8DBC0124A42F3B000C56A3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		3B8DBBED24A42F3B000C56A3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3B8DBBEE24A42F3B000C56A3 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3B8DBC0724A42F3B000C56A3 /* Debug */ = {
